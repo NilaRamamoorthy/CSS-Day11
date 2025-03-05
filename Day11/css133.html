@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css131</title>
+    <style>
+       *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+       }
+       .container{
+        border: 1px solid black;
+        background-color: antiquewhite;
+       margin: 5px;
+        height: 100vh;
+        position: relative;
+       }
+       .box{
+        border: 1px solid black;
+        background-color: grey;
+        margin-top: 50px;
+        margin-left: 50px;
+        height: 30vh;
+        width: 40vw;
+       }
+       .absolute{
+        border: 1px solid black;
+        background-color: white;
+       position: absolute;
+       top: 20px;
+       left: 40px;
+        width: 60px;
+        height: 40%;
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="absolute">
+                I am an absolute space.
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

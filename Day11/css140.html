@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: azure;
+
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+        }
+
+        .dropdown {
+            position: relative;
+            cursor: pointer;
+
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+
+
+        }
+
+        .dropdown:hover .dropdown-content {
+            cursor: pointer;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h3>Header</h3>
+        <div class="dropdown">
+            <i class='bx bx-menu'></i>
+
+
+            <div class="dropdown-content">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
